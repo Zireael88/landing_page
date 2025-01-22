@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 0 80px;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.first-content {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 0px 80px 40px;
+  justify-content: space-around;
+}
+
+.welcome-container {
+  padding-right: 80px;
+}
+
+.my-image {
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.somewhere-else {
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.second-content {
+  padding-bottom: 30px;
+}
+
+.facts {
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: baseline;
+  padding: 0px 80px;
+  gap: 10px;
+}
+.box-content {
+  flex: 1;
+  justify-content: baseline;
+  border: 1px solid black;
+  padding: 10px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.second-container-imgs {
+  height: 80px;
+  width: 100px;
+}
+.box-message {
+  text-align: center;
+  padding: 10px;
+}
+.third-content {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.quote {
+  font-size: 50px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fourth-content {
+  padding: 80px;
+}
+
+.fourth-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.please,
+.wanna {
+  margin: 0px;
+  padding: 5px;
+}
+.facebook {
+  display: flex;
+  padding: 10px 50px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
